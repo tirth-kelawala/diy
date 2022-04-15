@@ -17,6 +17,8 @@ func CreatePostgresConn() (sqlDb *sql.DB) {
 		host, port, username, dbName,
 	)
 
+	//testing2
+
 	conn, err := sql.Open("postgres", connString)
 
 	if err != nil {
